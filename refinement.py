@@ -85,7 +85,7 @@ def main():
                                       [4,5,6,8], [4,7,8,6], [6,9,7,8], [5,8,9,6]]
                                       
                                       
-    print_face_lines_tet(subface_definitions_vertics,subline_definitions_vertics)
+    print_face_lines_tet(subface_definitions_vertics[0:8],subline_definitions_vertics[12:])
     print_face_line_vertices_tet(subface_definitions_vertics)
                                       
     print_cell_quads_tet(subcell_definititions_vertices,subface_definitions_vertics)
